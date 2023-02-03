@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 300px;
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    /* text-align: end; */
+    display: flex; /*позиционирует по горизонтали*/
+    /*по центру*/
+    /* justify-content: center; */
+    /* в начале главной оси */
+    /* justify-content: flex-end; */
+    /* в начале */
+    /* justify-content: start; */
+    /* равномерно распределяет блоки по строке, первый меньше  */
+    /* justify-content: space-around; */
+    /* равномерное по строке */
+    /* justify-content: space-evenly; */
+
+    /* меняет направление горизонтальной оси справа налево*/
+    /* flex-direction: row-reverse; */
+
+    /* блоки растягиваются по высоте */
+    /* align-items: stretch; */
+    /* align-items: center;  */
+    
+    flex-direction: column-reverse;
+
+
+
+
+}
+
+p {
+    border: 1px solid red;
+    /* display: inline-block;
+    vertical-align: bottom; */
+}
+
+div p:nth-child(2) {
+    width: 100px;
+    height: 100px;
+}
+
+div p:nth-child(3) {
+    width: 60px;
+    height: 60px;
+}
+
+div p:nth-child(4) {
+    width: 100px;
+    height: 60px;
+}
+
+div p:nth-child(5) {
+    width: 60px;
+    height: 100px;
+}
