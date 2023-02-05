@@ -6,9 +6,9 @@ body {
 
 }
 
-header {
+.header {
     text-align: center;
-    color: rgb(236, 9, 119);
+    color: rgb(23, 9, 119);
 }
 
 .text1 {
@@ -17,10 +17,10 @@ header {
     padding: 21px;
 }
 
-a {
+/* a {
     text-decoration: none;
     color: black;
-}
+} */
 
 .text2 {
     background-color: #34495e;

@@ -1,7 +1,46 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
+} */
+
+
+
+
+p {
+    color: blueviolet;
+    font-size: 25px;
+    letter-spacing: 3px;  /* расстояние между буквами */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 7px dotted greenyellow;  */
+    border-width: 77px;
+    border-style: ridge;
+    border-color: crimson;
+    /* внутренний отступ */
+    /* padding: 20px 25px 3px 2px;  */
+    padding-top: 20px;
+    /*внешний отступ*/
+    /* margin: 20px 25px 3px 2px;  */
+    margin-top: 20px;
+
 }
+
+/* div {
+    color: blueviolet;
+    font-size: 25px;
+    letter-spacing: 3px;  расстояние между буквами */
+    /* font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 7px dotted greenyellow;  */
+    /* border-width: 77px;
+    border-style: ridge;
+    border-color: crimson;
+    /* внутренний отступ */
+    /* padding: 20px 25px 3px 2px;  */ 
+    /* padding-top: 20px; */
+    /*внешний отступ*/
+    /* margin: 20px 25px 3px 2px;  */
+    /* margin-top: 20px; */
+
+/* } */
 
 body {
     padding: 0 10px;
@@ -21,7 +60,7 @@ h1 {
 } */
 
 .post_block {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 5px 0 5px 5px;
     margin: 25px 0;
     background-color: azure;
@@ -81,3 +120,15 @@ h1 {
     
     
 /* } */
+
+.social_link img {
+    display: block;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+
+.social_link img {
+    width: 10px;
+    height: 10px;
+}
