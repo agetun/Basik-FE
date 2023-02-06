@@ -1,0 +1,53 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+html {
+    font-size: 30px;
+}
+
+body {
+    padding-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #00425a;
+    color: white;
+}
+
+form>*:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 5px;
+} */
+
+
+.main {
+    background-image: url(../media/Rectangle.png);
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 122px;
+    margin-bottom: 140px;
+}
+
+.main .contacts h1 {
+    font-family: 'Merr';
+    font-weight: 900;
+    font-size: 48px;
+}
+
