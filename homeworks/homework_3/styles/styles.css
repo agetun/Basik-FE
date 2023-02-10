@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    /* resize: none; */
+}
+
+body {
+    background-color: gainsboro;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+div {
+    /* width: 420px;
+    height: 426px; */
+    /* padding: 50px;
+    margin: 50px;
+    background-color: aqua;
+    color: blue; */
+}
+
+form {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    /* height: 426px; */
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+form * {
+    /* margin-bottom: 10px; */
+    padding: 14px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+/* input {
+    border: 2px solid greenyellow;
+} */
