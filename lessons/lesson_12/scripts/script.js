@@ -227,3 +227,5 @@ const getNewArray = function(a, b) {
 }
 
 console.log(getNewArray(9, 15))
+
+
