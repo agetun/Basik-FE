@@ -46,7 +46,7 @@ console.log("================================================")
 // Создайте массив из строк, чисел, NaN и объектов. Пример: ['hello', 1, { name: 'John' }, 'world', 2, { name: 'Jane' }, NaN]
 // Задача 1
 // Пройдитесь по массиву циклом for и выведите в консоли, чем является каждый элемент массива: строкой, числом или ни тем, ни другим (используя функции isNaN и typeof).
-const arr = ['hello', 1, {name: 'John'}, 'world', 2, {name: 'Jane'}, NaN];
+const arr = ['hello', 1, {name: 'John'}, 'world', 2, {name: 'Jane'}, NaN, '3'];
 let sum = 0
 console.log("Задание 5")
 
@@ -60,7 +60,7 @@ for (let index = 0; index < arr.length; index++) {
 // Задача 2
 // Просуммируйте все числа в массиве и выведите результат в консоли. Игнорируйте нечисловые элементы.
 
-    if (isNaN(arr[index]) === false) {
+    if (typeof element === "number" && !isNaN(element)) {  //(isNaN(arr[index]) === false
         // let element = arr[index];
         // sum += element
         // sum += arr[index]
