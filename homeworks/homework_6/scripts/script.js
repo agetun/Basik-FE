@@ -13,7 +13,7 @@ for (let index = 0; index < arr_1.length; index++) {
 console.log("==========все числа от 55 до 20================")
 
 for (let index = 0; index < arr_1.length; index++) {
-    if (arr_1[index] < 50 && arr_1[index] > 20) {
+    if (arr_1[index] < 55 && arr_1[index] > 20) {
         let element = arr_1[index];
         console.log(element);
     }

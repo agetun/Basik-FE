@@ -20,6 +20,13 @@ function evenNumber (c, d) {
         console.log("Not even number");
     }
 }
-evenNumber (8, 7);
+evenNumber(8, 7);
 
+//Напишите функцию power, которая принимает два числовых аргумента (основание степени и саму степень) и возвращает число в указанной степени. Значение степени должно быть указано по умолчанию 2.
+function power(a1, b1) {
+    let c1 = a1 ** b1;
+    return c1;
+}
+let result = power(4, 2)
+console.log(result);
 
