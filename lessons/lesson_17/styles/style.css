@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_container form {
+    background-color: azure;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+
+}
+
+.form_container form *:not(:last-child) {
+    margin-bottom: 10px;
+}
