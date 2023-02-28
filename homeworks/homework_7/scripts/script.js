@@ -23,9 +23,14 @@ function evenNumber (c, d) {
 evenNumber(8, 7);
 
 //Напишите функцию power, которая принимает два числовых аргумента (основание степени и саму степень) и возвращает число в указанной степени. Значение степени должно быть указано по умолчанию 2.
-function power(a1, b1) {
+function power(a1, b1 = 2) {
     let c1 = a1 ** b1;
     return c1;
+
+    for (let i = 0; i <= b; i++) c1 *= a; 
+        return c1;
+        
+    
 }
 let result = power(4, 2)
 console.log(result);
