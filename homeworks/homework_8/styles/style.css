@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.userscontainer {
+    background-color: #B4E4FF;
+    border: 1px solid #9fdafd;
+  }
+  
+  .userscontainer div:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  
+  .card {
+    border: 1px solid black;  
+    text-align: center;
+    font-style: 24px;
+    cursor: pointer;
+  }
